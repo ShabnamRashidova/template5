@@ -1,0 +1,61 @@
+.our-history{
+    margin: 50px 0 0;
+.image-content{
+ 
+    height: 70vh;
+   background-image: url(../img/about-bg-3-1.jpeg);
+}
+.text-content{
+    background-color: #13131A;
+    height: 70vh;
+ padding: 30px;
+ p{
+     color: #aaa;
+     font-weight: 500;
+     font-size: 17px;
+ }
+}
+}
+footer{
+
+    height:15vh;
+    padding: 40px;
+    .contact-info{
+        li{
+            margin-right: 30px;
+            color: #ccc;
+            font-size: 14px;
+            span{
+                font-size: 20px;
+                color: #fff;
+            }
+            i{
+                color: $bg-1;
+                margin-right: 10px;
+                font-size: 20px;
+            }
+        }
+    }
+    .subscribe{
+        position: relative;
+        input{
+            border:0 ;
+            border-bottom: 1px solid #eee;
+            background: transparent;
+            font-size: 14px;
+            width: 300px;
+            color: #eee;
+            padding: 0 0 10px 10px;
+           
+        }
+        button{
+            background: transparent;
+            border:none;
+            right:0;
+            color: #eee;
+            top:0;
+            position: absolute;  
+           text-transform: capitalize;
+              }
+    }
+}

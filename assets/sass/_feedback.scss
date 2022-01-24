@@ -1,0 +1,37 @@
+.feedback{
+    background-image: url(../img/footer-3-1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 160px;
+    background-position: top;
+    border-radius: 0 0 60% 60%;
+    margin: 0 0 50px ;
+    min-height: 90vh;
+    .review-item{
+        
+        .feedback-text{
+            color: #aaa;
+            font-weight: 500;
+            font-size: 18px;
+        }
+        .author-image{
+            img{
+                width: 50px;
+                margin: 0 auto;
+            }
+        }
+        .name{
+            text-transform: uppercase;
+            color: $bg-1;
+            font-weight: 400;
+            font-size: 20px;
+            margin: 10px 0 10px;
+        }
+        .job{
+            text-transform: uppercase;
+            color: #eee;
+            font-weight: 400;
+            font-size: 16px;
+        }
+    }
+}
